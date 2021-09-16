@@ -1,0 +1,35 @@
+// start global variables
+$main-color: #e934ff;
+$secondary-color: #0c0617;
+$text-color: #fff;
+$pg-color: #c4c4c4;
+$section-padding: 60px 0;
+$sm-screen: 768px;
+$md-screen: 992px;
+$lg-screen: 1200px;
+// end global variables
+// start global components
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: $secondary-color;
+    color: $text-color;
+    font-family: "Nunito Sans", sans-serif;
+    h4 {
+      font-family: "Satisfy", cursive;
+      color: $main-color;
+      font-size: 30px;
+    }
+  }
+}
+// end global components
